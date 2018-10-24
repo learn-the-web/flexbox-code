@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.columns {
+  display: flex;
+}
+
+.columns div {
+  width: 50%;
+  padding: .5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.columns p {
+  flex-grow: 1;
+}

@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+div:first-child {
+  background-color: #e2e2e2;
+}
+
+div:nth-child(2) {
+  background-color: #f2f2f2;
+  flex-grow: 2;
+}
+
+div:last-child {
+  background-color: #ddd;
+  flex-grow: 1;
+}
+
+section {
+  min-height: 100vh;
+  background-color: pink;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+section div {
+  margin: 1em;
+}
