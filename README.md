@@ -1,6 +1,6 @@
 # Flexbox code samples
 
-Code samples that accompany the Flexbox video & tutorial series.Code samples for the media queries tutorial.
+Code samples that accompany the Flexbox video & tutorial series.
 
 ### [☛ Tutorials & videos](http://learn-the-web.algonquindesign.ca/topics/flexbox/)
 
